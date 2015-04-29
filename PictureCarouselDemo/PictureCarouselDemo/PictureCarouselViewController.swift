@@ -13,6 +13,7 @@ class PictureCarouselViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var pictureContainer: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
     
+    var timer = NSTimer()
     var pictureCnt = 14
     
     override func viewDidLoad() {
@@ -20,6 +21,7 @@ class PictureCarouselViewController: UIViewController, UIScrollViewDelegate {
         
         pictureContainer.contentSize = CGSizeMake(CGFloat(160 * pictureCnt) - 10, 200)
         pictureContainer.pagingEnabled = true
+        addTimer()
         
         
         for i in 0...(pictureCnt-1) {
@@ -66,6 +68,47 @@ class PictureCarouselViewController: UIViewController, UIScrollViewDelegate {
         pageControl.currentPage = page
 
     }
+
+    func scrollViewWillBeginDragging(scrollView: UIScrollView) {
+        stopTimer()
+    }
+    
+    func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        addTimer()
+    }
+    
+    func addTimer() {
+        timer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "nextPage", userInfo: nil, repeats: true)
+    }
+    
+    func nextPage() {
+        UIView.beginAnimations(nil, context: nil)
+        UIView.setAnimationDuration(0.5)
+        
+        var page = pageControl.currentPage
+        let width = pictureContainer.frame.size.width
+        var x = CGFloat(page + 1) * width
+        pictureContainer.contentOffset = CGPointMake(x, 0)
+        page += 1
+        
+        UIView.commitAnimations()
+
+        
+        if page >= 4 {
+            UIView.beginAnimations(nil, context: nil)
+            UIView.setAnimationDuration(0.5)
+            
+            pageControl.currentPage = 0
+            pictureContainer.contentOffset = CGPointMake(0, 0)
+            
+            UIView.commitAnimations()
+        }
+    }
+    
+    func stopTimer() {
+        timer.invalidate()
+    }
+    
 
 }
 
