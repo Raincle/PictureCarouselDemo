@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F16CBDD31AF0D4B600BC4E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CBDD21AF0D4B600BC4E8C /* AppDelegate.swift */; };
-		F16CBDD51AF0D4B600BC4E8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CBDD41AF0D4B600BC4E8C /* ViewController.swift */; };
+		F16CBDD51AF0D4B600BC4E8C /* PictureCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16CBDD41AF0D4B600BC4E8C /* PictureCarouselViewController.swift */; };
 		F16CBDD81AF0D4B600BC4E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16CBDD61AF0D4B600BC4E8C /* Main.storyboard */; };
 		F16CBDDA1AF0D4B600BC4E8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16CBDD91AF0D4B600BC4E8C /* Images.xcassets */; };
 		F16CBDDD1AF0D4B600BC4E8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16CBDDB1AF0D4B600BC4E8C /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		F16CBDCD1AF0D4B600BC4E8C /* PictureCarouselDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureCarouselDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16CBDD11AF0D4B600BC4E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16CBDD21AF0D4B600BC4E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F16CBDD41AF0D4B600BC4E8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F16CBDD41AF0D4B600BC4E8C /* PictureCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCarouselViewController.swift; sourceTree = "<group>"; };
 		F16CBDD71AF0D4B600BC4E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F16CBDD91AF0D4B600BC4E8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F16CBDDC1AF0D4B600BC4E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				F16CBDD21AF0D4B600BC4E8C /* AppDelegate.swift */,
-				F16CBDD41AF0D4B600BC4E8C /* ViewController.swift */,
+				F16CBDD41AF0D4B600BC4E8C /* PictureCarouselViewController.swift */,
 				F16CBDD61AF0D4B600BC4E8C /* Main.storyboard */,
 				F16CBDD91AF0D4B600BC4E8C /* Images.xcassets */,
 				F16CBDDB1AF0D4B600BC4E8C /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16CBDD51AF0D4B600BC4E8C /* ViewController.swift in Sources */,
+				F16CBDD51AF0D4B600BC4E8C /* PictureCarouselViewController.swift in Sources */,
 				F16CBDD31AF0D4B600BC4E8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
