@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3D4C1CAD-60EB-464A-8AD4-D1CE05EBE462</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PictureCarouselDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F7F86BF40BB62C4689F9F7C3CDC301C6969CEA8E</key>
+		<string>https://github.com/Raincle/PictureCarouselDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PictureCarouselDemo/PictureCarouselDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F7F86BF40BB62C4689F9F7C3CDC301C6969CEA8E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Raincle/PictureCarouselDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F7F86BF40BB62C4689F9F7C3CDC301C6969CEA8E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F7F86BF40BB62C4689F9F7C3CDC301C6969CEA8E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PictureCarouselDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
